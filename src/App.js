@@ -5,13 +5,17 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <h1> Hello instagram, with react!!</h1>
+      
       <div className="app_top">
-
+        <img className="app_logo" 
+             src="instagram_logo.png" 
+             alt="instagram logo" 
+             />
+             <h1>Reels</h1>
       </div>
 
       <div className="app_videos">
-        
+
       </div>
 
     </div>
