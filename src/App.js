@@ -1,4 +1,5 @@
 import React from 'react';
+import VideoCard from './VideoCard';
 
 import './App.css';
 
@@ -15,7 +16,9 @@ function App() {
       </div>
 
       <div className="app_videos">
-
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
       </div>
 
     </div>

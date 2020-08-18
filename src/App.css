@@ -9,6 +9,10 @@ html {
   background-color: black;
 }
 
+/*.app_top {
+  margin-bottom: -150px;
+}*/
+
 .app_top > h1 {
   text-align: center;
   color: white;
