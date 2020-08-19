@@ -23,6 +23,32 @@
   text-transform: inherit;
 }
 
+.videoFooter_actions {
+  display: flex;
+  position: absolute;
+  width: 95%;
+  color: white;
+  justify-content: space-between;
+}
+
+.videoFooter_actionsLeft > .MuiSvgIcon-root {
+  padding: 0 10px;
+}
+
+.videoFooter_actionsRight {
+  display: flex;
+}
+
+.videoFooter_stat {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.videoFooter_stat > p {
+  margin-left: 3px;
+}
+
 .videoFooter_ticker > .ticker {
   height: fit-content;
   margin-left: 30px;
