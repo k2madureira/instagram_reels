@@ -2,6 +2,7 @@ html {
   scroll-snap-type: y mandatory;
 }
 
+
 .app {
   display: grid;
   place-items: center;
@@ -41,4 +42,7 @@ html {
 .app_videos {
   -ms-overflow-style: none; /* IE and Edge*/
   scrollbar-width: none; /* Firefox */
+  scroll-snap-points-y: repeat(65vh); /* Firefox */
+  scroll-snap-destination: 0 0; /* Firefox */
+  scroll-snap-type: mandatory; /* Firefox */
 }
