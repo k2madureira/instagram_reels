@@ -1,4 +1,5 @@
-This project aims to study, recreate the video interface with instagram snap.
+This project aims to study, recreate the video interface with instagram snap. 🐱‍🏍
+
 
 ![gif](https://user-images.githubusercontent.com/26586585/90582819-16682980-e1a5-11ea-96b9-85d211942238.gif)
 
