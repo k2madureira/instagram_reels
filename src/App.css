@@ -6,7 +6,8 @@ html {
   display: grid;
   place-items: center;
   height: 100vh;
-  background-color: black;
+  /*background:linear-gradient(black,transparent);*/
+  background-color:black;
 }
 
 /*.app_top {
