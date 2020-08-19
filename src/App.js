@@ -12,9 +12,9 @@ function App() {
              src="instagram_logo.png" 
              alt="instagram logo" 
              />
-             <h1>Reels</h1>
+        
       </div>
-
+      <h1>Clone instagram</h1>
       <div className="app_videos">
         <VideoCard
           channel='icescream.amv'
