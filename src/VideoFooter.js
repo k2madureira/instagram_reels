@@ -1,15 +1,21 @@
 import React from 'react';
-import './VideoHeader.css'
+import './VideoFooter.css'
+
+import { Button, Avatar } from '@material-ui/core';
 
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos'
 import CameraAltOutlinedIcon from '@material-ui/icons/CameraAltOutlined';
 
-function VideoFooter() {
+function VideoFooter({ channel, song, likes, shares, avatarSrc }) {
   return(
     <div className="videoFooter">
-      <ArrowBackIosIcon />
-      <h3>Reels</h3>
-      <CameraAltOutlinedIcon />
+      <div className="videoFooter_text">
+        <Avatar src={avatarSrc} />
+        <h3>
+          {channel}
+          <Button>Follow</Button>
+        </h3>
+      </div>   
     </div>
   )
 }

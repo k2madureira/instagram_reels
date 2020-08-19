@@ -1,0 +1,19 @@
+
+.videoFooter_text {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.videoFooter_text > h3 {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.videoFooter_text > h3 > button {
+  color: white;
+  font-weight: 900;
+  text-transform: inherit;
+}
