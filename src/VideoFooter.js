@@ -4,9 +4,9 @@ import './VideoHeader.css'
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos'
 import CameraAltOutlinedIcon from '@material-ui/icons/CameraAltOutlined';
 
-function VideoHeader() {
+function VideoFooter() {
   return(
-    <div className="videoHeader">
+    <div className="videoFooter">
       <ArrowBackIosIcon />
       <h3>Reels</h3>
       <CameraAltOutlinedIcon />
@@ -14,4 +14,4 @@ function VideoHeader() {
   )
 }
 
-export default VideoHeader
+export default VideoFooter

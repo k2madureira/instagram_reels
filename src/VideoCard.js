@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import './VideoCard.css';
-import './VideoHeader';
+import VideoHeader from './VideoHeader';
+import VideoFooter from './VideoFooter';
+
 
 function VideoCard() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -8,11 +10,11 @@ function VideoCard() {
 
   const onVideoPress = () => {
     if (isVideoPlaying) {
-      // stop the video
+      
       videoRef.current.pause();
       setIsVideoPlaying(false);
     } else {
-      // PLay the video
+      
       videoRef.current.play();
       setIsVideoPlaying(true);
     }
@@ -29,7 +31,11 @@ function VideoCard() {
         alt="IG reel video"
         loop
       />
+
+      <VideoFooter />
     </div>
+
+      
   )
 }
 
